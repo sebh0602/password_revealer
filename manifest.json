@@ -1,0 +1,15 @@
+{
+  "name": "Password Revealer",
+  "description": "Reveal hidden passwords in input fields.",
+  "version": "1.2",
+  "permissions": [
+    "tabs", "http://*/*", "https://*/*"
+  ],
+  "browser_action": {
+      "default_title": "Reveal this page's hidden passwords.",
+      "default_icon": "icon.png",
+      "default_popup": "popup.html"
+  },
+  "icons":{"192":"icon.png"},
+  "manifest_version": 2
+}
